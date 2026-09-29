@@ -20,7 +20,7 @@ jobs:
         run: |
           flutter create --platforms=android --project-name daily_islamic_routine build_app
           cp pubspec.yaml build_app/pubspec.yaml
-          cp lib/main.dart build_app/lib/main.dart
+          cp main.dart build_app/lib/main.dart
 
       - name: Get packages
         working-directory: build_app
